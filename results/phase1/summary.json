@@ -1,0 +1,259 @@
+[
+  {
+    "channel": "NaTa_t",
+    "region": "axonal",
+    "gbar": 3.137968,
+    "erev": 50.0,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 95.59437043793173,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 3.5785508118469807,
+    "PI_current_only": 0.2067370807881428,
+    "DCA_d1_PI": 2.443005065841163,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.5018951103745337,
+    "pi_per_feature": {
+      "m": 0.9170877476180834,
+      "h": 2.418481473908429,
+      "I": 0.2067370807881428
+    },
+    "seconds": 50.8
+  },
+  {
+    "channel": "NaTs2_t",
+    "region": "somatic",
+    "gbar": 0.983955,
+    "erev": 50.0,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 27.41943038323371,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 3.584662702420019,
+    "PI_current_only": 0.20529579122357156,
+    "DCA_d1_PI": 2.4796226572764795,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.5935069663043748,
+    "pi_per_feature": {
+      "m": 0.9003513615608512,
+      "h": 2.4565295966718566,
+      "I": 0.20529579122357156
+    },
+    "seconds": 52.1
+  },
+  {
+    "channel": "Nap_Et2",
+    "region": "axonal",
+    "gbar": 0.006827,
+    "erev": 50.0,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 0.7459254797615309,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 9.191352172781762,
+    "PI_current_only": 1.2651669382202897,
+    "DCA_d1_PI": 6.938513554317012,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.2785110175515229,
+    "pi_per_feature": {
+      "m": 1.8305349512423135,
+      "h": 6.714061883372892,
+      "I": 1.2651669382202897
+    },
+    "seconds": 66.2
+  },
+  {
+    "channel": "K_Tst",
+    "region": "axonal",
+    "gbar": 0.089259,
+    "erev": -85.0,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 6.433254008934792,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 5.65500141014752,
+    "PI_current_only": 0.48566467492239696,
+    "DCA_d1_PI": 4.0814776919309,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.8480152269675614,
+    "pi_per_feature": {
+      "m": 1.184685774842805,
+      "h": 3.955314524653204,
+      "I": 0.48566467492239696
+    },
+    "seconds": 43.9
+  },
+  {
+    "channel": "K_Pst",
+    "region": "axonal",
+    "gbar": 0.973538,
+    "erev": -85.0,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 110.81290473362475,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 10.960459471438185,
+    "PI_current_only": 1.8479141162723067,
+    "DCA_d1_PI": 5.974377578583415,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.3649315003673905,
+    "pi_per_feature": {
+      "m": 3.622362868927553,
+      "h": 5.956146190382583,
+      "I": 1.8479141162723067
+    },
+    "seconds": 51.9
+  },
+  {
+    "channel": "SKv3_1",
+    "region": "axonal",
+    "gbar": 1.021945,
+    "erev": -85.0,
+    "gates": [
+      "m"
+    ],
+    "peak_I_activation": 146.1138753325501,
+    "protocol": "ou_noise",
+    "n_features": 2,
+    "PI(T=40)": 3.436518620055324,
+    "PI_current_only": 1.7935522564131645,
+    "DCA_d1_PI": 2.5449913327332467,
+    "DCA_d1_leading_feature": "m",
+    "IO_MI(T=40)": 0.5247328778707754,
+    "pi_per_feature": {
+      "m": 2.540672568552367,
+      "I": 1.7935522564131645
+    },
+    "seconds": 26.4
+  },
+  {
+    "channel": "SK_E2",
+    "region": "somatic",
+    "gbar": 0.008407,
+    "erev": -85.0,
+    "gates": [
+      "z"
+    ],
+    "peak_I_activation": 1.1259713539273075,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 14.071513456724347,
+    "PI_current_only": 0.8919391440985862,
+    "DCA_d1_PI": 6.668957040481132,
+    "DCA_d1_leading_feature": "cai",
+    "IO_MI(T=40)": 1.217939024491443,
+    "pi_per_feature": {
+      "z": 6.678693065688094,
+      "cai": 6.861924206053743,
+      "I": 0.8919391440985862
+    },
+    "seconds": 99.9
+  },
+  {
+    "channel": "Im",
+    "region": "apical",
+    "gbar": 0.000143,
+    "erev": -85.0,
+    "gates": [
+      "m"
+    ],
+    "peak_I_activation": 0.01787499453199769,
+    "protocol": "ou_noise",
+    "n_features": 2,
+    "PI(T=40)": 4.26375747020802,
+    "PI_current_only": 1.6237788228930725,
+    "DCA_d1_PI": 3.5224701478755946,
+    "DCA_d1_leading_feature": "m",
+    "IO_MI(T=40)": 0.8429797727159212,
+    "pi_per_feature": {
+      "m": 3.522364206323232,
+      "I": 1.6237788228930725
+    },
+    "seconds": 28.9
+  },
+  {
+    "channel": "Ih",
+    "region": "basal",
+    "gbar": 8e-05,
+    "erev": -45.0,
+    "gates": [
+      "m"
+    ],
+    "peak_I_activation": 0.007081301004830112,
+    "protocol": "ou_noise",
+    "n_features": 2,
+    "PI(T=40)": 5.677668761092889,
+    "PI_current_only": 1.2145143355150765,
+    "DCA_d1_PI": 4.747702444790775,
+    "DCA_d1_leading_feature": "m",
+    "IO_MI(T=40)": 0.7651745496384308,
+    "pi_per_feature": {
+      "m": 4.747342184074341,
+      "I": 1.2145143355150765
+    },
+    "seconds": 33.9
+  },
+  {
+    "channel": "Ca_HVA",
+    "region": "somatic",
+    "gbar": 0.000994,
+    "erev": 140.23660113373896,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 0.11653042527347827,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 11.649041087693377,
+    "PI_current_only": 2.433033825433739,
+    "DCA_d1_PI": 7.538531413126918,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.4495536586019284,
+    "pi_per_feature": {
+      "m": 3.0252413843720944,
+      "h": 6.819359889599468,
+      "I": 2.433033825433739
+    },
+    "seconds": 48.7
+  },
+  {
+    "channel": "Ca_LVAst",
+    "region": "axonal",
+    "gbar": 0.008752,
+    "erev": 140.23660113373896,
+    "gates": [
+      "m",
+      "h"
+    ],
+    "peak_I_activation": 0.4843622164777391,
+    "protocol": "ou_noise",
+    "n_features": 3,
+    "PI(T=40)": 10.265391718022101,
+    "PI_current_only": 2.5488235592699198,
+    "DCA_d1_PI": 4.329194045700149,
+    "DCA_d1_leading_feature": "h",
+    "IO_MI(T=40)": 1.900902025167568,
+    "pi_per_feature": {
+      "m": 3.4370864458140318,
+      "h": 4.304990641594145,
+      "I": 2.5488235592699198
+    },
+    "seconds": 44.1
+  }
+]

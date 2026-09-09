@@ -1,0 +1,38 @@
+[project]
+name = "neuron-swap"
+version = "0.1.0"
+description = "Repository for calculation of the size, weight, and power (SWaP) costs when implementing various ion channels in a neuron model."
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+# DCA signatures (Step 1.3). BouchardLab DCA is not on PyPI (the PyPI "dca"
+# is an unrelated package); ioDCA comes from the lab's sdca checkout:
+#   pip install "git+https://github.com/BouchardLab/DynamicalComponentsAnalysis"
+#   pip install -e /path/to/sdca
+dca = ["torch", "scikit-learn", "tqdm"]
+plots = ["matplotlib"]
+# NEURON ground-truth parity tests
+neuron = ["neuron"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["neuron_swap*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "neuron: requires NEURON and the L5PC .mod files",
+    "dca: requires the BouchardLab dca package",
+    "slow: long-running",
+]
